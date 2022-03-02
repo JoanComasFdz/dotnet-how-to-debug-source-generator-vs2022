@@ -62,3 +62,10 @@ Source: [Github | Roslyn SDK | Support source generator debugging in the new Lau
 10. In the debug profiles dropdown next to the `Play` button, select your SourceGenerator project.
 11. Put a break point in your SourceGenerator to make sure the debugger stops.
 12. Click `Play`.
+
+## Notes
+Every time you change your source generator code, you will need to restart Visual Studio, otherwise Rebuilding the target project will not use the new version. This has something to do with Visual Studio caching.
+
+Sources:
+* [MIcrosoft Docs | Source Generators](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
+* [Steve Talks Code | Debugging C# Source Generators with Visual Studio 2019 16.10](http://stevetalkscode.co.uk/debug-source-generators-with-vs2019-1610)
