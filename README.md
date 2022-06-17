@@ -1,10 +1,13 @@
 # dotnet-how-to-debug-source-generator-vs2022
 Step by step guide on how to debug a C# SourceGenerator in Visual Studio 2022
 
-> Valid as of 1st March 2022 with Visual Studio 2022 Version 17.1.0
+> Valid as of 1st March 2022 with Visual Studio 2022 Version 17.1.0.
 
 Source: [Github | Roslyn SDK | Support source generator debugging in the new Launch Profiles UI
 #850](https://github.com/dotnet/roslyn-sdk/issues/850)
+
+## Prerequisites
+The [.NET Compiler Platform SDK](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/) must be installed.
 
 ## Solution structure
 1. Add a .NET Standard 2.0 class library for your SourceGenerator.
